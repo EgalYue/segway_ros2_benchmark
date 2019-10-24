@@ -53,15 +53,16 @@ public:
 
     void callback()
     {
-        std::weak_ptr<std::remove_pointer<decltype(pub_.get())>::type> captured_pub = pub_; // TODO shared_ptr
-        auto pub_ptr = captured_pub.lock();
-        if (!pub_ptr) {
-            return;
-        }
+//        std::weak_ptr<std::remove_pointer<decltype(pub_.get())>::type> captured_pub = pub_; // TODO shared_ptr
+//        auto pub_ptr = captured_pub.lock();
+//        if (!pub_ptr) {
+//            return;
+//        }
 
         sensor_msgs::msg::Image msg;
         cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", image_).toImageMsg(msg);
-        pub_ptr->publish(std::move(msg));
+//        pub_ptr->publish(std::move(msg));
+        pub_->publish(std::move(msg));
     }
 
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr pub_;
@@ -85,11 +86,10 @@ public:
 
     ~Consumer(){}
     void cb(sensor_msgs::msg::Image::UniquePtr msg){
-        printf(" Received message with value:, and address: 0x%" PRIXPTR "\n",
-                reinterpret_cast<std::uintptr_t>(msg.get()));
+//        printf(" Received message with value:, and address: 0x%" PRIXPTR "\n",
+//                reinterpret_cast<std::uintptr_t>(msg.get()));
         return;
     }
-
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_;
 };
 
