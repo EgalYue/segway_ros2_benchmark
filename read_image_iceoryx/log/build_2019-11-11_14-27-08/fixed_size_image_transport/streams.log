@@ -1,0 +1,82 @@
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/project/iceoryx_ws/install/iceoryx_ros2_bridge:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp:/home/yuehu/project/iceoryx_ws/install/iceoryx_posh:/home/yuehu/project/iceoryx_ws/install/iceoryx_utils:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent LD_LIBRARY_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp/lib:/usr/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+[35m[1mScanning dependencies of target image_transport_subscriber[0m
+[ 50%] Built target image_transport_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o[0m
+In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+                 from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:26[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:[m[K In destructor ‘[01m[Kvirtual ImageSubscriber<MsgT, width, height>::~ImageSubscriber()[m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kfinish[m[K’ was not declared in this scope
+     RCLCPP_INFO(logger, "Total %f seconds", ([01;31m[Kf[m[Kinish-start)/CLOCKS_PER_SEC);
+                                              [01;31m[K^[m[K
+[01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:311:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:314:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KRCLCPP_INFO[m[K(logger, "Total %f seconds", (finish-start)/CLOCKS_PER_SEC);
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:46:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfinite[m[K’
+     RCLCPP_INFO(logger, "Total %f seconds", ([01;36m[Kf[m[Kinish-start)/CLOCKS_PER_SEC);
+                                              [01;36m[K^[m[K
+[01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:311:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:314:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KRCLCPP_INFO[m[K(logger, "Total %f seconds", (finish-start)/CLOCKS_PER_SEC);
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+     RCLCPP_INFO(logger, "Total %f seconds", (finish-[01;31m[Ks[m[Ktart)/CLOCKS_PER_SEC);
+                                                     [01;31m[K^[m[K
+[01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:311:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:314:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KRCLCPP_INFO[m[K(logger, "Total %f seconds", (finish-start)/CLOCKS_PER_SEC);
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:53:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksqrt[m[K’
+     RCLCPP_INFO(logger, "Total %f seconds", (finish-[01;36m[Ks[m[Ktart)/CLOCKS_PER_SEC);
+                                                     [01;36m[K^[m[K
+[01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:311:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:314:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:50:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KRCLCPP_INFO[m[K(logger, "Total %f seconds", (finish-start)/CLOCKS_PER_SEC);
+     [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o] Error 1
+CMakeFiles/image_transport_subscriber.dir/build.make:62: recipe for target 'CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o' failed
+make[1]: *** [CMakeFiles/image_transport_subscriber.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/image_transport_subscriber.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '2': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/project/iceoryx_ws/install/iceoryx_ros2_bridge:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp:/home/yuehu/project/iceoryx_ws/install/iceoryx_posh:/home/yuehu/project/iceoryx_ws/install/iceoryx_utils:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent LD_LIBRARY_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp/lib:/usr/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8

@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target image_transport_subscriber[0m
+[ 50%] Built target image_transport_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_transport_subscriber[0m
+[100%] Built target image_transport_subscriber
+[100%] Built target image_transport_publisher
+[100%] Built target image_transport_subscriber
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_publisher
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_subscriber
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_subscriber" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/package_run_dependencies/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/parent_prefix_path/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.bash
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.zsh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/packages/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig-version.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.xml

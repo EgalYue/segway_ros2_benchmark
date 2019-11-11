@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fixed_size_msgs/msg/Image4k.msg
+// generated code does not contain a copyright notice
+
+
+module fixed_size_msgs {
+  module msg {
+    typedef uint8 uint8__24883200[24883200];
+    module Image4k_Constants {
+      const uint32 HEIGHT = 2160;
+      const uint32 WIDTH = 3840;
+      const uint32 CHANNELS = 3;
+    };
+    struct Image4k {
+      int64 timestamp;
+
+      uint8 is_bigendian;
+
+      uint32 step;
+
+      @verbatim (language="comment", text=
+        " 2160 * 3840 * 3")
+      uint8__24883200 data;
+    };
+  };
+};

@@ -1,0 +1,85 @@
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/project/iceoryx_ws/install/iceoryx_ros2_bridge:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp:/home/yuehu/project/iceoryx_ws/install/iceoryx_posh:/home/yuehu/project/iceoryx_ws/install/iceoryx_utils:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent LD_LIBRARY_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/usr/lib:/usr/lib:/usr/lib:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp/lib:/usr/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+[35m[1mScanning dependencies of target image_transport_subscriber[0m
+[ 50%] Built target image_transport_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o[0m
+In file included from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:28:0[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:87:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   [01;31m[Kauto[m[K start_t_;
+   [01;31m[K^~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:88:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   [01;31m[Kauto[m[K end_t_;
+   [01;31m[K^~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:[m[K In destructor ‘[01m[Kvirtual ImageSubscriber<MsgT, width, height>::~ImageSubscriber()[m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:51:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ was not declared in this scope
+       std::cout<< std::chrono::duration_cast<[01;31m[Kchrono[m[K::milliseconds>(end_t_ - start_t_).count <<std::endl;
+                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:51:46:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/mutex:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/future:38[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+                 from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:26[m[K:
+[01m[K/usr/include/c++/7/chrono:59:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono[m[K’
+   namespace [01;36m[Kchrono[m[K
+             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:28:0[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:51:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+       std::cout<< std::chrono::[01;31m[Kduration_cast<chrono::milliseconds>[m[K(end_t_ - start_t_).count <<std::endl;
+                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image1m_<std::allocator<void> >; long unsigned int width = 2921; long unsigned int height = 2192; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:54:82:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::start_t_[m[K’
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image1m_<std::allocator<void> >; long unsigned int width = 2921; long unsigned int height = 2192][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:54:82:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:5:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::end_t_[m[K’
+     [01;31m[Kend_t_[m[K = std::chrono::steady_clock::now();
+     [01;31m[K^~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::ImageVGA_<std::allocator<void> >; long unsigned int width = 640; long unsigned int height = 480; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:57:83:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::start_t_[m[K’
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::ImageVGA_<std::allocator<void> >; long unsigned int width = 640; long unsigned int height = 480][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:57:83:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:5:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::end_t_[m[K’
+     [01;31m[Kend_t_[m[K = std::chrono::steady_clock::now();
+     [01;31m[K^~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image720p_<std::allocator<void> >; long unsigned int width = 1280; long unsigned int height = 720; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:60:85:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::start_t_[m[K’
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image720p_<std::allocator<void> >; long unsigned int width = 1280; long unsigned int height = 720][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:60:85:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:5:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::end_t_[m[K’
+     [01;31m[Kend_t_[m[K = std::chrono::steady_clock::now();
+     [01;31m[K^~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image1080p_<std::allocator<void> >; long unsigned int width = 1920; long unsigned int height = 1080; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:63:87:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::start_t_[m[K’
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image1080p_<std::allocator<void> >; long unsigned int width = 1920; long unsigned int height = 1080][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:63:87:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:5:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::end_t_[m[K’
+     [01;31m[Kend_t_[m[K = std::chrono::steady_clock::now();
+     [01;31m[K^~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image4k_<std::allocator<void> >; long unsigned int width = 3840; long unsigned int height = 2160; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:66:81:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::start_t_[m[K’
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image4k_<std::allocator<void> >; long unsigned int width = 3840; long unsigned int height = 2160][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:66:81:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:5:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[KImageSubscriber<MsgT, width, height>::end_t_[m[K’
+     [01;31m[Kend_t_[m[K = std::chrono::steady_clock::now();
+     [01;31m[K^~~~~~[m[K
+CMakeFiles/image_transport_subscriber.dir/build.make:62: recipe for target 'CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o' failed
+make[2]: *** [CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/image_transport_subscriber.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/image_transport_subscriber.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '2': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/project/iceoryx_ws/install/iceoryx_ros2_bridge:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp:/home/yuehu/project/iceoryx_ws/install/iceoryx_posh:/home/yuehu/project/iceoryx_ws/install/iceoryx_utils:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent LD_LIBRARY_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/usr/lib:/usr/lib:/usr/lib:/home/yuehu/project/iceoryx_ws/install/rmw_iceoryx_cpp/lib:/usr/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8

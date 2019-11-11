@@ -1,0 +1,434 @@
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs -DCMAKE_INSTALL_PREFIX=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.1 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)
+-- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.8") 
+-- Found ament_cmake_cppcheck: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_uncrustify/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.8", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs -DCMAKE_INSTALL_PREFIX=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__dds_opensplice_idl[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__cpp[0m
+[  2%] [34m[1mGenerating DDS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target fixed_size_msgs__dds_opensplice_idl
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_generator_c[0m
+[  3%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image_vga__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image720p__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image1m__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image4k__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image1080p__functions.c.o[0m
+[  7%] [32m[1mLinking C shared library libfixed_size_msgs__rosidl_generator_c.so[0m
+[  7%] Built target fixed_size_msgs__rosidl_generator_c
+[  9%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[  9%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[  9%] Built target fixed_size_msgs__cpp
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_c[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image1m__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image4k__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image1080p__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image720p__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_introspection_c[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image_vga__type_support.cpp.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1m__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image4k__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1080p__type_support.c.o[0m
+[ 20%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_c.so[0m
+[ 21%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image720p__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image_vga__type_support.c.o[0m
+[ 22%] Built target fixed_size_msgs__rosidl_typesupport_c
+[ 23%] [32m[1mLinking C shared library libfixed_size_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 23%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image4k__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image720p__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image_vga__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image1080p__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image1m__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image1m__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image1m__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image4k__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image4k__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image1080p__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image1080p__type_support.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_cpp.so[0m
+[ 33%] Built target fixed_size_msgs__rosidl_typesupport_cpp
+[ 34%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image720p__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image720p__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image_vga__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image_vga__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_cpp[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image4k__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image1m__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image1080p__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image720p__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image_vga__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 42%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp
+[ 43%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 45%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.cpp.o[0m
+[ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.cpp.o[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image4k__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image1080p__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image_vga__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image1m__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image720p__type_support_c.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so[0m
+[ 66%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp
+[ 67%] [34m[1mGenerating C type support for PrismTech OpenSplice[0m
+[ 68%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_c[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image1080p__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image4k__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image720p__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image1m__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image_vga__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_opensplice_c.so[0m
+[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c
+[35m[1mScanning dependencies of target fixed_size_msgs[0m
+[ 91%] Built target fixed_size_msgs
+[35m[1mScanning dependencies of target fixed_size_msgs__py[0m
+[ 92%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 92%] Built target fixed_size_msgs__py
+[35m[1mScanning dependencies of target fixed_size_msgs__python[0m
+[ 93%] [32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image4k_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image1080p_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image_vga_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image1m_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image720p_s.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/libfixed_size_msgs__python.so[0m
+[ 97%] Built target fixed_size_msgs__python
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_opensplice_c.c.o[0m
+[ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8
+[  1%] Built target fixed_size_msgs__dds_opensplice_idl
+[  1%] Built target fixed_size_msgs__cpp
+[  7%] Built target fixed_size_msgs__rosidl_generator_c
+[ 13%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp
+[ 19%] Built target fixed_size_msgs__rosidl_typesupport_cpp
+[ 31%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c
+[ 31%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target fixed_size_msgs__rosidl_typesupport_c
+[ 43%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c
+[ 67%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp
+[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c
+[ 91%] Built target fixed_size_msgs
+[ 92%] Built target fixed_size_msgs__py
+[ 97%] Built target fixed_size_msgs__python
+[100%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/rosidl_interfaces/fixed_size_msgs
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__traits.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__traits.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__traits.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__traits.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.cpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.cpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.cpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.cpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.cpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_fastrtps
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice_c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_c__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_c.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_c.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image720p_.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image4k_.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1m_.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1080p_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image4k_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1080p_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1m_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image720p_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_ImageVGA_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/__init__.py
+Compiling '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/__init__.py'...
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p_s.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p_s.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m_s.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga_s.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/__init__.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k_s.c
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p.py
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__python.so
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__python.so" to ""
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.idl
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.msg
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/package_run_dependencies/fixed_size_msgs
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/parent_prefix_path/fixed_size_msgs
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.bash
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.zsh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/packages/fixed_size_msgs
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig-version.cmake
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.xml
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8

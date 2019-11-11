@@ -1,0 +1,154 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fce6ac714a8>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fce6ac714a8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fce6ac717b8>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport' with type 'ros.ament_cmake' and name 'fixed_size_image_transport'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs' with type 'ros.ament_cmake' and name 'fixed_size_msgs'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/log) ignored
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:fixed_size_image_transport depends on fixed_size_msgs which has version 0.0.0: constraints {}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'fixed_size_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs', 'merge_install': False, 'path': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'fixed_size_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'fixed_size_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport', 'merge_install': False, 'path': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport', 'symlink_install': False, 'test_result_base': None}
+[0.187s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.188s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.193s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixed_size_msgs)
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs' for CMake module files
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixed_size_msgs', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/cmake_prefix_path.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/cmake_prefix_path.dsv'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/cmake_prefix_path.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib'
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixed_size_msgs', 'ld_library_path_lib')
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/ld_library_path_lib.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/ld_library_path_lib.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/ld_library_path_lib.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/pkgconfig/fixed_size_msgs.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages'
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixed_size_msgs', 'pythonpath')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/pythonpath.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/pythonpath.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/hook/pythonpath.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.zsh'
+[1.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/colcon-core/packages/fixed_size_msgs)
+[1.028s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport' with build type 'ament_cmake'
+[1.029s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.031s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+[2.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '0': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+[2.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport --target install -- -j8 -l8
+[2.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixed_size_image_transport)
+[2.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '0': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport --target install -- -j8 -l8
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport' for CMake module files
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport' for CMake config files
+[2.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixed_size_image_transport', 'cmake_prefix_path')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/hook/cmake_prefix_path.ps1'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/hook/cmake_prefix_path.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/hook/cmake_prefix_path.sh'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/bin'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/pkgconfig/fixed_size_image_transport.pc'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/python3.6/site-packages'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.ps1'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.dsv'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.sh'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.bash'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.zsh'
+[2.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/colcon-core/packages/fixed_size_image_transport)
+[2.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.178s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.184s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.186s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/local_setup.ps1'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/_local_setup_util_ps1.py'
+[2.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/setup.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/local_setup.sh'
+[2.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/_local_setup_util_sh.py'
+[2.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/setup.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/local_setup.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/setup.bash'
+[2.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/local_setup.zsh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/setup.zsh'

@@ -1,0 +1,47 @@
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+-- Found ament_cmake: 0.8.1 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found fixed_size_msgs: 0.0.0 (/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake)
+-- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.8.1 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport
+[ 75%] Built target image_transport_publisher
+[ 75%] [32m[1mLinking CXX executable image_transport_subscriber[0m
+[100%] Built target image_transport_subscriber
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '0': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport -- -j8 -l8
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport --target install -- -j8 -l8
+[100%] Built target image_transport_subscriber
+[100%] Built target image_transport_publisher
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_publisher
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_subscriber
+-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_subscriber" to ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/package_run_dependencies/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/parent_prefix_path/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.sh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.bash
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.zsh
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/packages/fixed_size_image_transport
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig-version.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.xml
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport' returned '0': CMAKE_PREFIX_PATH=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport --target install -- -j8 -l8

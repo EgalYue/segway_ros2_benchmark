@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fixed_size_msgs/msg/Image1080p.msg
+// generated code does not contain a copyright notice
+
+
+module fixed_size_msgs {
+  module msg {
+    typedef uint8 uint8__6220800[6220800];
+    module Image1080p_Constants {
+      const uint32 HEIGHT = 1080;
+      const uint32 WIDTH = 1920;
+      const uint32 CHANNELS = 3;
+    };
+    struct Image1080p {
+      int64 timestamp;
+
+      uint8 is_bigendian;
+
+      uint32 step;
+
+      @verbatim (language="comment", text=
+        " 1080 * 1920 * 3")
+      uint8__6220800 data;
+    };
+  };
+};

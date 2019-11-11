@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fixed_size_msgs/msg/Image1m.msg
+// generated code does not contain a copyright notice
+
+
+module fixed_size_msgs {
+  module msg {
+    typedef uint8 uint8__19208496[19208496];
+    module Image1m_Constants {
+      const uint32 HEIGHT = 2192;
+      const uint32 WIDTH = 2921;
+      const uint32 CHANNELS = 3;
+    };
+    struct Image1m {
+      int64 timestamp;
+
+      uint8 is_bigendian;
+
+      uint32 step;
+
+      @verbatim (language="comment", text=
+        " 2192 * 2921 * 3")
+      uint8__19208496 data;
+    };
+  };
+};

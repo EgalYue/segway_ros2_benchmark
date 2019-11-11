@@ -1,0 +1,40 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from fixed_size_msgs:msg/ImageVGA.idl
+// generated code does not contain a copyright notice
+
+#ifndef __fixed_size_msgs__msg__image_vga__idl__
+#define __fixed_size_msgs__msg__image_vga__idl__
+
+
+module fixed_size_msgs {
+
+module msg {
+
+module dds_ {
+
+module ImageVGA_Constants {
+const unsigned long HEIGHT_ = 480;
+const unsigned long WIDTH_ = 640;
+const unsigned long CHANNELS_ = 3;
+
+};
+
+struct ImageVGA_ {
+long long timestamp_;
+octet is_bigendian_;
+unsigned long step_;
+octet data_[921600];
+
+
+};
+
+#pragma keylist ImageVGA_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module fixed_size_msgs
+
+
+#endif  // __fixed_size_msgs__msg__image_vga__idl__

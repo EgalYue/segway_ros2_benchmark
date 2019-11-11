@@ -1,0 +1,40 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from fixed_size_msgs:msg/Image720p.idl
+// generated code does not contain a copyright notice
+
+#ifndef __fixed_size_msgs__msg__image720p__idl__
+#define __fixed_size_msgs__msg__image720p__idl__
+
+
+module fixed_size_msgs {
+
+module msg {
+
+module dds_ {
+
+module Image720p_Constants {
+const unsigned long HEIGHT_ = 720;
+const unsigned long WIDTH_ = 1280;
+const unsigned long CHANNELS_ = 3;
+
+};
+
+struct Image720p_ {
+long long timestamp_;
+octet is_bigendian_;
+unsigned long step_;
+octet data_[2764800];
+
+
+};
+
+#pragma keylist Image720p_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module fixed_size_msgs
+
+
+#endif  // __fixed_size_msgs__msg__image720p__idl__

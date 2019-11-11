@@ -1,0 +1,4 @@
+source;share/fixed_size_msgs/local_setup.bash
+source;share/fixed_size_msgs/local_setup.dsv
+source;share/fixed_size_msgs/local_setup.sh
+source;share/fixed_size_msgs/local_setup.zsh

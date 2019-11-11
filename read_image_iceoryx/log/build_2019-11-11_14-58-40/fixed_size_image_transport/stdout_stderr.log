@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target image_transport_subscriber[0m
+[ 50%] Built target image_transport_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o[0m
+In file included from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:28:0[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:[m[K In destructor ‘[01m[Kvirtual ImageSubscriber<MsgT, width, height>::~ImageSubscriber()[m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:53:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+       [01;31m[Kstd[m[K::cout<< static_cast<float>(end_t_ - start_t_) / 1e6 <<std::endl;
+       [01;31m[K^~~[m[K
+CMakeFiles/image_transport_subscriber.dir/build.make:62: recipe for target 'CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o' failed
+make[2]: *** [CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/image_transport_subscriber.dir/all' failed
+make[1]: *** [CMakeFiles/image_transport_subscriber.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

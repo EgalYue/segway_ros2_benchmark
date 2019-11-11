@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1m__type_support.c"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image4k__type_support.c"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1080p__type_support.c"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image720p__type_support.c"
+  "rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image_vga__type_support.c"
+  "CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1m__type_support.c.o"
+  "CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image4k__type_support.c.o"
+  "CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1080p__type_support.c.o"
+  "CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image720p__type_support.c.o"
+  "CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image_vga__type_support.c.o"
+  "libfixed_size_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libfixed_size_msgs__rosidl_typesupport_introspection_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -23,7 +23,7 @@ int main(int argc, char **argv){
     auto publisher = node->create_publisher<std_msgs::msg::String>("topic", 10);
     rclcpp::WallRate loop_rate(10);
 
-    std::string bytedata = read_datafile("/home/yuehu/Desktop/segway_ros2_benchmark/data_factory/byte_data/data_256Kbyte.txt");    
+    std::string bytedata = read_datafile("/home/yuehu/Desktop/segway_ros2_benchmark/data_factory/byte_data/data_1Mbyte.txt");    
 
     while(rclcpp::ok()){
         std_msgs::msg::String message;

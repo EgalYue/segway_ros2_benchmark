@@ -1,0 +1,71 @@
+In file included from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:28:0[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:[m[K In destructor ‘[01m[Kvirtual ImageSubscriber<MsgT, width, height>::~ImageSubscriber()[m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:51:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::milliseconds>(long int)[m[K’
+       std::cout<< std::chrono::duration_cast<std::chrono::milliseconds>(end_t_ - start_t_[01;31m[K)[m[K.count <<std::endl;
+                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/mutex:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/future:38[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+                 from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:26[m[K:
+[01m[K/usr/include/c++/7/chrono:194:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _ToDur, class _Rep, class _Period> constexpr typename std::enable_if<std::chrono::__is_duration<_Tp>::value, _ToDur>::type std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)
+       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/chrono:194:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:28:0[m[K:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:51:90:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’ and ‘[01m[Klong int[m[K’
+       std::cout<< std::chrono::duration_cast<std::chrono::milliseconds>(end_t_ - start_t_[01;36m[K)[m[K.count <<std::endl;
+                                                                                          [01;36m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image1m_<std::allocator<void> >; long unsigned int width = 2921; long unsigned int height = 2192; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:54:82:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in initialization
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image1m_<std::allocator<void> >; long unsigned int width = 2921; long unsigned int height = 2192][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:54:82:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in assignment
+     [01;31m[Kend_t_ = std::chrono::steady_clock::now()[m[K;
+     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::ImageVGA_<std::allocator<void> >; long unsigned int width = 640; long unsigned int height = 480; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:57:83:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in initialization
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::ImageVGA_<std::allocator<void> >; long unsigned int width = 640; long unsigned int height = 480][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:57:83:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in assignment
+     [01;31m[Kend_t_ = std::chrono::steady_clock::now()[m[K;
+     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image720p_<std::allocator<void> >; long unsigned int width = 1280; long unsigned int height = 720; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:60:85:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in initialization
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image720p_<std::allocator<void> >; long unsigned int width = 1280; long unsigned int height = 720][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:60:85:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in assignment
+     [01;31m[Kend_t_ = std::chrono::steady_clock::now()[m[K;
+     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image1080p_<std::allocator<void> >; long unsigned int width = 1920; long unsigned int height = 1080; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:63:87:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in initialization
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image1080p_<std::allocator<void> >; long unsigned int width = 1920; long unsigned int height = 1080][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:63:87:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in assignment
+     [01;31m[Kend_t_ = std::chrono::steady_clock::now()[m[K;
+     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::ImageSubscriber(std::shared_ptr<rclcpp::Node>, std::__cxx11::string, bool) [with MsgT = fixed_size_msgs::msg::Image4k_<std::allocator<void> >; long unsigned int width = 3840; long unsigned int height = 2160; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:66:81:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:39:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in initialization
+     start_t_(std::chrono::steady_clock::now()[01;31m[K)[m[K
+                                              [01;31m[K^[m[K
+/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp: In instantiation of ‘[01m[KImageSubscriber<MsgT, width, height>::~ImageSubscriber() [with MsgT = fixed_size_msgs::msg::Image4k_<std::allocator<void> >; long unsigned int width = 3840; long unsigned int height = 2160][m[K’:
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/image_transport_subscriber.cpp:66:81:[m[K   required from here
+[01m[K/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport/src/./image_subscriber.hpp:49:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::_V2::steady_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to ‘[01m[Klong int[m[K’ in assignment
+     [01;31m[Kend_t_ = std::chrono::steady_clock::now()[m[K;
+     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/image_transport_subscriber.dir/all] Error 2
+make: *** [all] Error 2

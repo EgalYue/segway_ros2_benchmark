@@ -1,0 +1,724 @@
+[0.000000] (-) TimerEvent: {}
+[0.000933] (fixed_size_msgs) JobQueued: {'identifier': 'fixed_size_msgs', 'dependencies': OrderedDict()}
+[0.001003] (fixed_size_image_transport) JobQueued: {'identifier': 'fixed_size_image_transport', 'dependencies': OrderedDict([('fixed_size_msgs', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs')])}
+[0.001071] (fixed_size_msgs) JobStarted: {'identifier': 'fixed_size_msgs'}
+[0.010109] (fixed_size_msgs) JobProgress: {'identifier': 'fixed_size_msgs', 'progress': 'cmake'}
+[0.010662] (fixed_size_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_msgs', '-DCMAKE_INSTALL_PREFIX=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent')]), 'shell': False}
+[0.071072] (fixed_size_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[0.099186] (-) TimerEvent: {}
+[0.124759] (fixed_size_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[0.127792] (fixed_size_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.189701] (fixed_size_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.190165] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199306] (-) TimerEvent: {}
+[0.250899] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.254962] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299460] (-) TimerEvent: {}
+[0.399722] (-) TimerEvent: {}
+[0.432639] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.434665] (fixed_size_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499845] (-) TimerEvent: {}
+[0.503026] (fixed_size_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.503679] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.573218] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.577359] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599971] (-) TimerEvent: {}
+[0.700210] (-) TimerEvent: {}
+[0.800512] (-) TimerEvent: {}
+[0.870207] (fixed_size_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.871886] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.1 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.894510] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") \n'}
+[0.894653] (fixed_size_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900621] (-) TimerEvent: {}
+[1.000857] (-) TimerEvent: {}
+[1.062639] (fixed_size_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)\n'}
+[1.072821] (fixed_size_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.100659] (fixed_size_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.100927] (-) TimerEvent: {}
+[1.159168] (fixed_size_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[1.177574] (fixed_size_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[1.201053] (-) TimerEvent: {}
+[1.230453] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[1.253441] (fixed_size_msgs) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[1.279836] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.8") \n'}
+[1.301191] (-) TimerEvent: {}
+[1.401443] (-) TimerEvent: {}
+[1.411247] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_cppcheck/cmake)\n'}
+[1.412990] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_cpplint/cmake)\n'}
+[1.414659] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_uncrustify/cmake)\n'}
+[1.425253] (fixed_size_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c\n'}
+[1.432716] (fixed_size_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp\n'}
+[1.501603] (-) TimerEvent: {}
+[1.540409] (fixed_size_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.562070] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3.5") \n'}
+[1.563213] (fixed_size_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[1.586914] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.8", minimum required is "3.5") \n'}
+[1.587192] (fixed_size_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.587274] (fixed_size_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[1.587352] (fixed_size_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[1.601695] (-) TimerEvent: {}
+[1.606461] (fixed_size_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701815] (-) TimerEvent: {}
+[1.718978] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_flake8/cmake)\n'}
+[1.720624] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.8.1 (/opt/ros/eloquent/share/ament_cmake_pep257/cmake)\n'}
+[1.723059] (fixed_size_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.735546] (fixed_size_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.736053] (fixed_size_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.740266] (fixed_size_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.801940] (-) TimerEvent: {}
+[1.849568] (fixed_size_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.853002] (fixed_size_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs\n'}
+[1.858109] (fixed_size_msgs) CommandEnded: {'returncode': 0}
+[1.859000] (fixed_size_msgs) JobProgress: {'identifier': 'fixed_size_msgs', 'progress': 'build'}
+[1.861298] (fixed_size_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', '--', '-j8', '-l8'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent')]), 'shell': False}
+[1.902036] (-) TimerEvent: {}
+[1.904398] (fixed_size_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.904606] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__dds_opensplice_idl\x1b[0m\n'}
+[1.904682] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__cpp\x1b[0m\n'}
+[1.914624] (fixed_size_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating DDS interfaces\x1b[0m\n'}
+[1.914774] (fixed_size_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.002147] (-) TimerEvent: {}
+[2.102410] (-) TimerEvent: {}
+[2.202679] (-) TimerEvent: {}
+[2.302941] (-) TimerEvent: {}
+[2.403200] (-) TimerEvent: {}
+[2.405434] (fixed_size_msgs) StdoutLine: {'line': b'[  2%] Built target fixed_size_msgs__dds_opensplice_idl\n'}
+[2.503309] (-) TimerEvent: {}
+[2.580524] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.593281] (fixed_size_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image_vga__functions.c.o\x1b[0m\n'}
+[2.595763] (fixed_size_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image720p__functions.c.o\x1b[0m\n'}
+[2.595999] (fixed_size_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image1m__functions.c.o\x1b[0m\n'}
+[2.596155] (fixed_size_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image4k__functions.c.o\x1b[0m\n'}
+[2.596300] (fixed_size_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_generator_c.dir/rosidl_generator_c/fixed_size_msgs/msg/image1080p__functions.c.o\x1b[0m\n'}
+[2.603454] (-) TimerEvent: {}
+[2.651573] (fixed_size_msgs) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking C shared library libfixed_size_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.684215] (fixed_size_msgs) StdoutLine: {'line': b'[  7%] Built target fixed_size_msgs__rosidl_generator_c\n'}
+[2.694324] (fixed_size_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.694473] (fixed_size_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.703561] (-) TimerEvent: {}
+[2.803834] (-) TimerEvent: {}
+[2.817516] (fixed_size_msgs) StdoutLine: {'line': b'[  9%] Built target fixed_size_msgs__cpp\n'}
+[2.827974] (fixed_size_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.829240] (fixed_size_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.833043] (fixed_size_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.835533] (fixed_size_msgs) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for PrismTech OpenSplice\x1b[0m\n'}
+[2.903923] (-) TimerEvent: {}
+[3.004256] (-) TimerEvent: {}
+[3.104582] (-) TimerEvent: {}
+[3.204847] (-) TimerEvent: {}
+[3.272048] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.292698] (fixed_size_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image1m__type_support.cpp.o\x1b[0m\n'}
+[3.304948] (-) TimerEvent: {}
+[3.309132] (fixed_size_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image4k__type_support.cpp.o\x1b[0m\n'}
+[3.331639] (fixed_size_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image1080p__type_support.cpp.o\x1b[0m\n'}
+[3.334598] (fixed_size_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image720p__type_support.cpp.o\x1b[0m\n'}
+[3.336830] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.355433] (fixed_size_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixed_size_msgs/msg/image_vga__type_support.cpp.o\x1b[0m\n'}
+[3.365689] (fixed_size_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1m__type_support.c.o\x1b[0m\n'}
+[3.378992] (fixed_size_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image4k__type_support.c.o\x1b[0m\n'}
+[3.382610] (fixed_size_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image1080p__type_support.c.o\x1b[0m\n'}
+[3.399216] (fixed_size_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.405039] (-) TimerEvent: {}
+[3.411868] (fixed_size_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image720p__type_support.c.o\x1b[0m\n'}
+[3.420947] (fixed_size_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixed_size_msgs/msg/image_vga__type_support.c.o\x1b[0m\n'}
+[3.456033] (fixed_size_msgs) StdoutLine: {'line': b'[ 22%] Built target fixed_size_msgs__rosidl_typesupport_c\n'}
+[3.461585] (fixed_size_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libfixed_size_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.490759] (fixed_size_msgs) StdoutLine: {'line': b'[ 23%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c\n'}
+[3.505118] (-) TimerEvent: {}
+[3.605365] (-) TimerEvent: {}
+[3.632064] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.649831] (fixed_size_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image4k__type_support.cpp.o\x1b[0m\n'}
+[3.650077] (fixed_size_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image720p__type_support.cpp.o\x1b[0m\n'}
+[3.650193] (fixed_size_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image_vga__type_support.cpp.o\x1b[0m\n'}
+[3.650365] (fixed_size_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image1080p__type_support.cpp.o\x1b[0m\n'}
+[3.655037] (fixed_size_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixed_size_msgs/msg/image1m__type_support.cpp.o\x1b[0m\n'}
+[3.705466] (-) TimerEvent: {}
+[3.805811] (-) TimerEvent: {}
+[3.858477] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.880478] (fixed_size_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image1m__type_support.cpp.o\x1b[0m\n'}
+[3.905923] (-) TimerEvent: {}
+[3.952955] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.978541] (fixed_size_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image1m__type_support.cpp.o\x1b[0m\n'}
+[4.006034] (-) TimerEvent: {}
+[4.028104] (fixed_size_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image4k__type_support.cpp.o\x1b[0m\n'}
+[4.030884] (fixed_size_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image4k__type_support.cpp.o\x1b[0m\n'}
+[4.038376] (fixed_size_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image1080p__type_support.cpp.o\x1b[0m\n'}
+[4.050258] (fixed_size_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image1080p__type_support.cpp.o\x1b[0m\n'}
+[4.094730] (fixed_size_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.106134] (-) TimerEvent: {}
+[4.156269] (fixed_size_msgs) StdoutLine: {'line': b'[ 33%] Built target fixed_size_msgs__rosidl_typesupport_cpp\n'}
+[4.178290] (fixed_size_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image720p__type_support.cpp.o\x1b[0m\n'}
+[4.206237] (-) TimerEvent: {}
+[4.306558] (-) TimerEvent: {}
+[4.317415] (fixed_size_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image720p__type_support.cpp.o\x1b[0m\n'}
+[4.406657] (-) TimerEvent: {}
+[4.426071] (fixed_size_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixed_size_msgs/msg/image_vga__type_support.cpp.o\x1b[0m\n'}
+[4.454880] (fixed_size_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixed_size_msgs/msg/dds_fastrtps/image_vga__type_support.cpp.o\x1b[0m\n'}
+[4.506765] (-) TimerEvent: {}
+[4.551869] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_cpp\x1b[0m\n'}
+[4.606875] (-) TimerEvent: {}
+[4.703492] (fixed_size_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image4k__type_support.cpp.o\x1b[0m\n'}
+[4.703791] (fixed_size_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image1m__type_support.cpp.o\x1b[0m\n'}
+[4.704003] (fixed_size_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image1080p__type_support.cpp.o\x1b[0m\n'}
+[4.704566] (fixed_size_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image720p__type_support.cpp.o\x1b[0m\n'}
+[4.704798] (fixed_size_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/image_vga__type_support.cpp.o\x1b[0m\n'}
+[4.706976] (-) TimerEvent: {}
+[4.758609] (fixed_size_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_.cpp.o\x1b[0m\n'}
+[4.790677] (fixed_size_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.807082] (-) TimerEvent: {}
+[4.898679] (fixed_size_msgs) StdoutLine: {'line': b'[ 42%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.907190] (-) TimerEvent: {}
+[4.912646] (fixed_size_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.cpp.o\x1b[0m\n'}
+[4.934697] (fixed_size_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.cpp.o\x1b[0m\n'}
+[5.007302] (-) TimerEvent: {}
+[5.032471] (fixed_size_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.107419] (-) TimerEvent: {}
+[5.172343] (fixed_size_msgs) StdoutLine: {'line': b'[ 45%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.178514] (fixed_size_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.cpp.o\x1b[0m\n'}
+[5.188797] (fixed_size_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.207513] (-) TimerEvent: {}
+[5.307816] (-) TimerEvent: {}
+[5.408130] (-) TimerEvent: {}
+[5.437461] (fixed_size_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_.cpp.o\x1b[0m\n'}
+[5.508234] (-) TimerEvent: {}
+[5.525528] (fixed_size_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.cpp.o\x1b[0m\n'}
+[5.578832] (fixed_size_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.cpp.o\x1b[0m\n'}
+[5.590678] (fixed_size_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.cpp.o\x1b[0m\n'}
+[5.605776] (fixed_size_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_.cpp.o\x1b[0m\n'}
+[5.608332] (-) TimerEvent: {}
+[5.611726] (fixed_size_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.cpp.o\x1b[0m\n'}
+[5.614301] (fixed_size_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.cpp.o\x1b[0m\n'}
+[5.647202] (fixed_size_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.cpp.o\x1b[0m\n'}
+[5.708430] (-) TimerEvent: {}
+[5.785331] (fixed_size_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_.cpp.o\x1b[0m\n'}
+[5.808387] (fixed_size_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.cpp.o\x1b[0m\n'}
+[5.808596] (-) TimerEvent: {}
+[5.870762] (fixed_size_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.cpp.o\x1b[0m\n'}
+[5.907775] (fixed_size_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.cpp.o\x1b[0m\n'}
+[5.908685] (-) TimerEvent: {}
+[5.966599] (fixed_size_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.cpp.o\x1b[0m\n'}
+[5.972644] (fixed_size_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.cpp.o\x1b[0m\n'}
+[6.008793] (-) TimerEvent: {}
+[6.081331] (fixed_size_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.cpp.o\x1b[0m\n'}
+[6.085832] (fixed_size_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.cpp.o\x1b[0m\n'}
+[6.108887] (-) TimerEvent: {}
+[6.209381] (-) TimerEvent: {}
+[6.268424] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.289604] (fixed_size_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image4k__type_support_c.cpp.o\x1b[0m\n'}
+[6.289936] (fixed_size_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image1080p__type_support_c.cpp.o\x1b[0m\n'}
+[6.290066] (fixed_size_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image_vga__type_support_c.cpp.o\x1b[0m\n'}
+[6.290173] (fixed_size_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image1m__type_support_c.cpp.o\x1b[0m\n'}
+[6.294770] (fixed_size_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixed_size_msgs/msg/image720p__type_support_c.cpp.o\x1b[0m\n'}
+[6.309539] (-) TimerEvent: {}
+[6.410403] (-) TimerEvent: {}
+[6.474268] (fixed_size_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so\x1b[0m\n'}
+[6.510510] (-) TimerEvent: {}
+[6.610884] (-) TimerEvent: {}
+[6.696052] (fixed_size_msgs) StdoutLine: {'line': b'[ 66%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp\n'}
+[6.708315] (fixed_size_msgs) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C type support for PrismTech OpenSplice\x1b[0m\n'}
+[6.710976] (-) TimerEvent: {}
+[6.783175] (fixed_size_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.811064] (-) TimerEvent: {}
+[6.864859] (fixed_size_msgs) StdoutLine: {'line': b'[ 68%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.911155] (-) TimerEvent: {}
+[7.011439] (-) TimerEvent: {}
+[7.111713] (-) TimerEvent: {}
+[7.211994] (-) TimerEvent: {}
+[7.283020] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_c\x1b[0m\n'}
+[7.312108] (-) TimerEvent: {}
+[7.381407] (fixed_size_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image1080p__type_support_c.cpp.o\x1b[0m\n'}
+[7.381711] (fixed_size_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image4k__type_support_c.cpp.o\x1b[0m\n'}
+[7.382151] (fixed_size_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image720p__type_support_c.cpp.o\x1b[0m\n'}
+[7.382416] (fixed_size_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image1m__type_support_c.cpp.o\x1b[0m\n'}
+[7.383360] (fixed_size_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_.cpp.o\x1b[0m\n'}
+[7.383750] (fixed_size_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.cpp.o\x1b[0m\n'}
+[7.384492] (fixed_size_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/fixed_size_msgs/msg/dds_opensplice_c/image_vga__type_support_c.cpp.o\x1b[0m\n'}
+[7.385064] (fixed_size_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.cpp.o\x1b[0m\n'}
+[7.412215] (-) TimerEvent: {}
+[7.512548] (-) TimerEvent: {}
+[7.559287] (fixed_size_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.cpp.o\x1b[0m\n'}
+[7.612650] (-) TimerEvent: {}
+[7.685377] (fixed_size_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_.cpp.o\x1b[0m\n'}
+[7.712756] (-) TimerEvent: {}
+[7.813109] (-) TimerEvent: {}
+[7.875179] (fixed_size_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.cpp.o\x1b[0m\n'}
+[7.879724] (fixed_size_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.cpp.o\x1b[0m\n'}
+[7.886651] (fixed_size_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.cpp.o\x1b[0m\n'}
+[7.913210] (-) TimerEvent: {}
+[8.013540] (-) TimerEvent: {}
+[8.111118] (fixed_size_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.cpp.o\x1b[0m\n'}
+[8.113643] (-) TimerEvent: {}
+[8.114823] (fixed_size_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_.cpp.o\x1b[0m\n'}
+[8.134311] (fixed_size_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.cpp.o\x1b[0m\n'}
+[8.142604] (fixed_size_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.cpp.o\x1b[0m\n'}
+[8.142934] (fixed_size_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_.cpp.o\x1b[0m\n'}
+[8.207092] (fixed_size_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.cpp.o\x1b[0m\n'}
+[8.213748] (-) TimerEvent: {}
+[8.236091] (fixed_size_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.cpp.o\x1b[0m\n'}
+[8.292547] (fixed_size_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.cpp.o\x1b[0m\n'}
+[8.313858] (-) TimerEvent: {}
+[8.324934] (fixed_size_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.cpp.o\x1b[0m\n'}
+[8.369036] (fixed_size_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.cpp.o\x1b[0m\n'}
+[8.369306] (fixed_size_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.cpp.o\x1b[0m\n'}
+[8.414009] (-) TimerEvent: {}
+[8.468756] (fixed_size_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.cpp.o\x1b[0m\n'}
+[8.514115] (-) TimerEvent: {}
+[8.614512] (-) TimerEvent: {}
+[8.714788] (-) TimerEvent: {}
+[8.757402] (fixed_size_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libfixed_size_msgs__rosidl_typesupport_opensplice_c.so\x1b[0m\n'}
+[8.814901] (-) TimerEvent: {}
+[8.882183] (fixed_size_msgs) StdoutLine: {'line': b'[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c\n'}
+[8.891527] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs\x1b[0m\n'}
+[8.901276] (fixed_size_msgs) StdoutLine: {'line': b'[ 91%] Built target fixed_size_msgs\n'}
+[8.910466] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__py\x1b[0m\n'}
+[8.914974] (-) TimerEvent: {}
+[8.919920] (fixed_size_msgs) StdoutLine: {'line': b'[ 92%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.015066] (-) TimerEvent: {}
+[9.115464] (-) TimerEvent: {}
+[9.215817] (-) TimerEvent: {}
+[9.316089] (-) TimerEvent: {}
+[9.416381] (-) TimerEvent: {}
+[9.516656] (-) TimerEvent: {}
+[9.616925] (-) TimerEvent: {}
+[9.717218] (-) TimerEvent: {}
+[9.817503] (-) TimerEvent: {}
+[9.917856] (-) TimerEvent: {}
+[10.018247] (-) TimerEvent: {}
+[10.069115] (fixed_size_msgs) StdoutLine: {'line': b'[ 92%] Built target fixed_size_msgs__py\n'}
+[10.078352] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__python\x1b[0m\n'}
+[10.101278] (fixed_size_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image4k_s.c.o\x1b[0m\n'}
+[10.101516] (fixed_size_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image1080p_s.c.o\x1b[0m\n'}
+[10.103220] (fixed_size_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image_vga_s.c.o\x1b[0m\n'}
+[10.104425] (fixed_size_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image1m_s.c.o\x1b[0m\n'}
+[10.105010] (fixed_size_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__python.dir/rosidl_generator_py/fixed_size_msgs/msg/_image720p_s.c.o\x1b[0m\n'}
+[10.118352] (-) TimerEvent: {}
+[10.218657] (-) TimerEvent: {}
+[10.222239] (fixed_size_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/libfixed_size_msgs__python.so\x1b[0m\n'}
+[10.258102] (fixed_size_msgs) StdoutLine: {'line': b'[ 97%] Built target fixed_size_msgs__python\n'}
+[10.268585] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.271880] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.271999] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext\x1b[0m\n'}
+[10.288118] (fixed_size_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.297740] (fixed_size_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.297912] (fixed_size_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext.dir/rosidl_generator_py/fixed_size_msgs/_fixed_size_msgs_s.ep.rosidl_typesupport_opensplice_c.c.o\x1b[0m\n'}
+[10.318776] (-) TimerEvent: {}
+[10.383308] (fixed_size_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.383756] (fixed_size_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.395260] (fixed_size_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.418196] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext\n'}
+[10.418871] (-) TimerEvent: {}
+[10.450719] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext\n'}
+[10.452595] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.463081] (fixed_size_msgs) CommandEnded: {'returncode': 0}
+[10.519045] (-) TimerEvent: {}
+[10.608156] (fixed_size_msgs) JobProgress: {'identifier': 'fixed_size_msgs', 'progress': 'install'}
+[10.608688] (fixed_size_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent')]), 'shell': False}
+[10.619149] (-) TimerEvent: {}
+[10.660287] (fixed_size_msgs) StdoutLine: {'line': b'[  1%] Built target fixed_size_msgs__dds_opensplice_idl\n'}
+[10.660868] (fixed_size_msgs) StdoutLine: {'line': b'[  1%] Built target fixed_size_msgs__cpp\n'}
+[10.662877] (fixed_size_msgs) StdoutLine: {'line': b'[  7%] Built target fixed_size_msgs__rosidl_generator_c\n'}
+[10.688086] (fixed_size_msgs) StdoutLine: {'line': b'[ 13%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp\n'}
+[10.689535] (fixed_size_msgs) StdoutLine: {'line': b'[ 19%] Built target fixed_size_msgs__rosidl_typesupport_cpp\n'}
+[10.691962] (fixed_size_msgs) StdoutLine: {'line': b'[ 31%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c\n'}
+[10.692162] (fixed_size_msgs) StdoutLine: {'line': b'[ 31%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.692406] (fixed_size_msgs) StdoutLine: {'line': b'[ 37%] Built target fixed_size_msgs__rosidl_typesupport_c\n'}
+[10.716638] (fixed_size_msgs) StdoutLine: {'line': b'[ 43%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.719238] (-) TimerEvent: {}
+[10.734037] (fixed_size_msgs) StdoutLine: {'line': b'[ 67%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp\n'}
+[10.797812] (fixed_size_msgs) StdoutLine: {'line': b'[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c\n'}
+[10.815689] (fixed_size_msgs) StdoutLine: {'line': b'[ 91%] Built target fixed_size_msgs\n'}
+[10.819354] (-) TimerEvent: {}
+[10.833870] (fixed_size_msgs) StdoutLine: {'line': b'[ 92%] Built target fixed_size_msgs__py\n'}
+[10.860823] (fixed_size_msgs) StdoutLine: {'line': b'[ 97%] Built target fixed_size_msgs__python\n'}
+[10.885980] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext\n'}
+[10.886136] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.886208] (fixed_size_msgs) StdoutLine: {'line': b'[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext\n'}
+[10.903727] (fixed_size_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[10.911952] (fixed_size_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.912339] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/rosidl_interfaces/fixed_size_msgs\n'}
+[10.912791] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.912946] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.913079] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.hpp\n'}
+[10.913318] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__traits.hpp\n'}
+[10.913417] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.hpp\n'}
+[10.913494] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.hpp\n'}
+[10.913583] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.hpp\n'}
+[10.913656] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.hpp\n'}
+[10.913732] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__traits.hpp\n'}
+[10.913817] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.hpp\n'}
+[10.913891] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.hpp\n'}
+[10.913973] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__traits.hpp\n'}
+[10.914044] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.hpp\n'}
+[10.914117] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.hpp\n'}
+[10.914201] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.hpp\n'}
+[10.914274] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__traits.hpp\n'}
+[10.914346] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__traits.hpp\n'}
+[10.914432] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.914506] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.914595] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.c\n'}
+[10.914668] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.c\n'}
+[10.914739] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.914823] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.h\n'}
+[10.914899] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.h\n'}
+[10.914971] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.c\n'}
+[10.915056] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.h\n'}
+[10.915128] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.h\n'}
+[10.915208] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.c\n'}
+[10.915277] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.h\n'}
+[10.915332] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.h\n'}
+[10.915416] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.h\n'}
+[10.915489] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.h\n'}
+[10.915560] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.h\n'}
+[10.915618] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.h\n'}
+[10.915673] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.h\n'}
+[10.915745] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.h\n'}
+[10.915805] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.h\n'}
+[10.915861] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.h\n'}
+[10.915917] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.h\n'}
+[10.915971] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.h\n'}
+[10.916027] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.h\n'}
+[10.916094] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.h\n'}
+[10.916164] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.c\n'}
+[10.916224] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.h\n'}
+[10.916280] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.h\n'}
+[10.916334] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.sh\n'}
+[10.916395] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.dsv\n'}
+[10.916465] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_generator_c.so\n'}
+[10.916534] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_generator_c.so" to ""\n'}
+[10.916591] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_c.so\n'}
+[10.916647] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.916703] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_cpp.so\n'}
+[10.916808] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.916890] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.916974] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.917043] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.c\n'}
+[10.917114] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.c\n'}
+[10.917199] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_c.h\n'}
+[10.917271] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_c.h\n'}
+[10.917339] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.c\n'}
+[10.917420] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_c.h\n'}
+[10.917493] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_c.h\n'}
+[10.917568] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.917628] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.c\n'}
+[10.917697] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_c.h\n'}
+[10.917755] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.c\n'}
+[10.917810] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.918008] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.918077] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.918162] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.918235] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.918307] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.cpp\n'}
+[10.918397] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.918470] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.cpp\n'}
+[10.918540] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.918611] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.918695] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.cpp\n'}
+[10.918752] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.918809] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.cpp\n'}
+[10.918881] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.cpp\n'}
+[10.918937] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.919201] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.919272] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.919352] (-) TimerEvent: {}
+[10.919494] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.919686] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919783] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919845] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919938] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.920003] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_c.h\n'}
+[10.920061] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_c.h\n'}
+[10.920118] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.920233] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.920350] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.920433] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.920519] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.920625] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_fastrtps\n'}
+[10.920709] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.920797] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.920883] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.920941] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.921032] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.921090] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.921365] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.921455] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.921564] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.921671] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_c.h\n'}
+[10.921759] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_c.h\n'}
+[10.921845] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice_c\n'}
+[10.921926] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[10.922007] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_c.h\n'}
+[10.922064] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_c.h\n'}
+[10.922150] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_c.h\n'}
+[10.922207] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_c.so\n'}
+[10.923342] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_c.so" to ""\n'}
+[10.923458] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice\n'}
+[10.923545] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image720p_.idl\n'}
+[10.923637] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image4k_.idl\n'}
+[10.923741] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1m_.idl\n'}
+[10.923827] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.idl\n'}
+[10.923887] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1080p_.idl\n'}
+[10.924017] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs\n'}
+[10.924104] (fixed_size_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg\n'}
+[10.924187] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[10.924253] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice\n'}
+[10.924338] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.h\n'}
+[10.924440] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.h\n'}
+[10.924520] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.h\n'}
+[10.924601] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.h\n'}
+[10.924684] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.h\n'}
+[10.924769] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.h\n'}
+[10.924854] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image4k_.h\n'}
+[10.924934] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_.h\n'}
+[10.925017] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_.h\n'}
+[10.925132] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.h\n'}
+[10.925210] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1080p_.h\n'}
+[10.925293] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.h\n'}
+[10.925373] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1m_.h\n'}
+[10.925451] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.h\n'}
+[10.925534] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.h\n'}
+[10.925619] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.h\n'}
+[10.925703] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.h\n'}
+[10.925782] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.h\n'}
+[10.925863] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.h\n'}
+[10.925945] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.h\n'}
+[10.926047] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image720p_.h\n'}
+[10.926145] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_ImageVGA_.h\n'}
+[10.926239] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.h\n'}
+[10.926324] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_.h\n'}
+[10.926405] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_.h\n'}
+[10.926492] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[10.926547] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[10.926632] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[10.926688] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[10.926744] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[10.926799] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so\n'}
+[10.927874] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so" to ""\n'}
+[10.927974] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.sh\n'}
+[10.928063] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.dsv\n'}
+[10.928251] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/__init__.py\n'}
+[10.956786] (fixed_size_msgs) StdoutLine: {'line': b"Compiling '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/__init__.py'...\n"}
+[10.960327] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg\n'}
+[10.960841] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p.py\n'}
+[10.961181] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p_s.c\n'}
+[10.961282] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m.py\n'}
+[10.961373] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p_s.c\n'}
+[10.961453] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m_s.c\n'}
+[10.961508] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga_s.c\n'}
+[10.961562] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k.py\n'}
+[10.961615] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/__init__.py\n'}
+[10.961696] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga.py\n'}
+[10.961751] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k_s.c\n'}
+[10.961803] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p.py\n'}
+[10.961856] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[10.962157] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[10.962380] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[10.962885] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[10.963153] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[10.963805] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[10.964050] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__python.so\n'}
+[10.964447] (fixed_size_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__python.so" to ""\n'}
+[10.964750] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.idl\n'}
+[10.964947] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.idl\n'}
+[10.965107] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.idl\n'}
+[10.965220] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.idl\n'}
+[10.965429] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.idl\n'}
+[10.965569] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.msg\n'}
+[10.965632] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.msg\n'}
+[10.965716] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.msg\n'}
+[10.965823] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.msg\n'}
+[10.965941] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.msg\n'}
+[10.966131] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/package_run_dependencies/fixed_size_msgs\n'}
+[10.966316] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/parent_prefix_path/fixed_size_msgs\n'}
+[10.966447] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.sh\n'}
+[10.966615] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.dsv\n'}
+[10.966791] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.sh\n'}
+[10.966944] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.dsv\n'}
+[10.967080] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.bash\n'}
+[10.967205] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.sh\n'}
+[10.967330] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.zsh\n'}
+[10.967488] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.dsv\n'}
+[10.967583] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.dsv\n'}
+[10.967723] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/packages/fixed_size_msgs\n'}
+[10.967861] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.967974] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.968115] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.968235] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.968352] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.968445] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig.cmake\n'}
+[10.968526] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig-version.cmake\n'}
+[10.968627] (fixed_size_msgs) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.xml\n'}
+[10.971402] (fixed_size_msgs) CommandEnded: {'returncode': 0}
+[10.988192] (fixed_size_msgs) JobEnded: {'identifier': 'fixed_size_msgs', 'rc': 0}
+[10.988891] (fixed_size_image_transport) JobStarted: {'identifier': 'fixed_size_image_transport'}
+[10.994123] (fixed_size_image_transport) JobProgress: {'identifier': 'fixed_size_image_transport', 'progress': 'cmake'}
+[10.995453] (fixed_size_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/fixed_size_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent')]), 'shell': False}
+[11.019491] (-) TimerEvent: {}
+[11.043132] (fixed_size_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[11.088487] (fixed_size_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[11.091260] (fixed_size_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[11.119567] (-) TimerEvent: {}
+[11.149967] (fixed_size_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[11.150402] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.208667] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.212827] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.219686] (-) TimerEvent: {}
+[11.319961] (-) TimerEvent: {}
+[11.402742] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.404769] (fixed_size_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[11.420086] (-) TimerEvent: {}
+[11.480557] (fixed_size_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[11.481098] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.520218] (-) TimerEvent: {}
+[11.562257] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.566389] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.620314] (-) TimerEvent: {}
+[11.720604] (-) TimerEvent: {}
+[11.820920] (-) TimerEvent: {}
+[11.862012] (fixed_size_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.863909] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.1 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[11.888354] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") \n'}
+[11.888586] (fixed_size_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.921030] (-) TimerEvent: {}
+[12.021271] (-) TimerEvent: {}
+[12.052597] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found fixed_size_msgs: 0.0.0 (/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake)\n'}
+[12.064521] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[12.106610] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[12.107794] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found rclcpp: 0.8.1 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[12.121344] (-) TimerEvent: {}
+[12.122149] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[12.123479] (fixed_size_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.124249] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.189690] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.190138] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[12.221473] (-) TimerEvent: {}
+[12.256782] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[12.257095] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[12.306476] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[12.306705] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.321585] (-) TimerEvent: {}
+[12.366924] (fixed_size_image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[12.367920] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.421672] (-) TimerEvent: {}
+[12.440938] (fixed_size_image_transport) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[12.505564] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[12.506493] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.506776] (fixed_size_image_transport) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[12.507604] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.508243] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.509112] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.509605] (fixed_size_image_transport) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.511628] (fixed_size_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.521770] (-) TimerEvent: {}
+[12.541514] (fixed_size_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[12.542963] (fixed_size_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport\n'}
+[12.546220] (fixed_size_image_transport) CommandEnded: {'returncode': 0}
+[12.547019] (fixed_size_image_transport) JobProgress: {'identifier': 'fixed_size_image_transport', 'progress': 'build'}
+[12.547296] (fixed_size_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', '--', '-j8', '-l8'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent')]), 'shell': False}
+[12.585590] (fixed_size_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport_publisher\x1b[0m\n'}
+[12.585745] (fixed_size_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport_subscriber\x1b[0m\n'}
+[12.614424] (fixed_size_image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_transport_publisher.dir/src/image_transport_publisher.cpp.o\x1b[0m\n'}
+[12.615890] (fixed_size_image_transport) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o\x1b[0m\n'}
+[12.621910] (-) TimerEvent: {}
+[12.722226] (-) TimerEvent: {}
+[12.822601] (-) TimerEvent: {}
+[12.922918] (-) TimerEvent: {}
+[13.023342] (-) TimerEvent: {}
+[13.123796] (-) TimerEvent: {}
+[13.224215] (-) TimerEvent: {}
+[13.324623] (-) TimerEvent: {}
+[13.425044] (-) TimerEvent: {}
+[13.525468] (-) TimerEvent: {}
+[13.625893] (-) TimerEvent: {}
+[13.726315] (-) TimerEvent: {}
+[13.826709] (-) TimerEvent: {}
+[13.927102] (-) TimerEvent: {}
+[14.027537] (-) TimerEvent: {}
+[14.127925] (-) TimerEvent: {}
+[14.228271] (-) TimerEvent: {}
+[14.328656] (-) TimerEvent: {}
+[14.429007] (-) TimerEvent: {}
+[14.529359] (-) TimerEvent: {}
+[14.629709] (-) TimerEvent: {}
+[14.730080] (-) TimerEvent: {}
+[14.830464] (-) TimerEvent: {}
+[14.930866] (-) TimerEvent: {}
+[15.031293] (-) TimerEvent: {}
+[15.131738] (-) TimerEvent: {}
+[15.232135] (-) TimerEvent: {}
+[15.332552] (-) TimerEvent: {}
+[15.432935] (-) TimerEvent: {}
+[15.533307] (-) TimerEvent: {}
+[15.633654] (-) TimerEvent: {}
+[15.734011] (-) TimerEvent: {}
+[15.834374] (-) TimerEvent: {}
+[15.934756] (-) TimerEvent: {}
+[16.035165] (-) TimerEvent: {}
+[16.135594] (-) TimerEvent: {}
+[16.235989] (-) TimerEvent: {}
+[16.336283] (-) TimerEvent: {}
+[16.356350] (fixed_size_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable image_transport_publisher\x1b[0m\n'}
+[16.436387] (-) TimerEvent: {}
+[16.536756] (-) TimerEvent: {}
+[16.637144] (-) TimerEvent: {}
+[16.737517] (-) TimerEvent: {}
+[16.758928] (fixed_size_image_transport) StdoutLine: {'line': b'[ 75%] Built target image_transport_publisher\n'}
+[16.837632] (-) TimerEvent: {}
+[16.937952] (-) TimerEvent: {}
+[17.038262] (-) TimerEvent: {}
+[17.138574] (-) TimerEvent: {}
+[17.238895] (-) TimerEvent: {}
+[17.339325] (-) TimerEvent: {}
+[17.439829] (-) TimerEvent: {}
+[17.540286] (-) TimerEvent: {}
+[17.640648] (-) TimerEvent: {}
+[17.741009] (-) TimerEvent: {}
+[17.841412] (-) TimerEvent: {}
+[17.941805] (-) TimerEvent: {}
+[18.042196] (-) TimerEvent: {}
+[18.142547] (-) TimerEvent: {}
+[18.242936] (-) TimerEvent: {}
+[18.343307] (-) TimerEvent: {}
+[18.443678] (-) TimerEvent: {}
+[18.544048] (-) TimerEvent: {}
+[18.644357] (-) TimerEvent: {}
+[18.744665] (-) TimerEvent: {}
+[18.845021] (-) TimerEvent: {}
+[18.945402] (-) TimerEvent: {}
+[19.045724] (-) TimerEvent: {}
+[19.146075] (-) TimerEvent: {}
+[19.246415] (-) TimerEvent: {}
+[19.249747] (fixed_size_image_transport) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_transport_subscriber\x1b[0m\n'}
+[19.346520] (-) TimerEvent: {}
+[19.446900] (-) TimerEvent: {}
+[19.547301] (-) TimerEvent: {}
+[19.647728] (-) TimerEvent: {}
+[19.748115] (-) TimerEvent: {}
+[19.799532] (fixed_size_image_transport) StdoutLine: {'line': b'[100%] Built target image_transport_subscriber\n'}
+[19.809394] (fixed_size_image_transport) CommandEnded: {'returncode': 0}
+[19.831816] (fixed_size_image_transport) JobProgress: {'identifier': 'fixed_size_image_transport', 'progress': 'install'}
+[19.833461] (fixed_size_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'yuehu'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('SSH_AGENT_PID', '2101'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib:/usr/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:40411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd35dea93200d4a1ca50864bbfb1ce87d'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/2013,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ea6e9b5_36f9_4337_a479_1358c144e140'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('OSPL_HOME', '/usr'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/opt/ros/eloquent'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_image_transport'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=01303997bcc89bb0718b8e705dc8befa'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5201'), ('CMAKE_PREFIX_PATH', '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs:/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport:/opt/ros/eloquent')]), 'shell': False}
+[19.848238] (-) TimerEvent: {}
+[19.889558] (fixed_size_image_transport) StdoutLine: {'line': b'[100%] Built target image_transport_subscriber\n'}
+[19.889763] (fixed_size_image_transport) StdoutLine: {'line': b'[100%] Built target image_transport_publisher\n'}
+[19.906373] (fixed_size_image_transport) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[19.914151] (fixed_size_image_transport) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.914471] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_publisher\n'}
+[19.915625] (fixed_size_image_transport) StdoutLine: {'line': b'-- Set runtime path of "/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/lib/fixed_size_image_transport/image_transport_publisher" to ""\n'}
+[19.915906] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/package_run_dependencies/fixed_size_image_transport\n'}
+[19.916074] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/parent_prefix_path/fixed_size_image_transport\n'}
+[19.916294] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.sh\n'}
+[19.916467] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/ament_prefix_path.dsv\n'}
+[19.916582] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.sh\n'}
+[19.916682] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/environment/path.dsv\n'}
+[19.916815] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.bash\n'}
+[19.916941] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.sh\n'}
+[19.917072] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.zsh\n'}
+[19.917212] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/local_setup.dsv\n'}
+[19.917357] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.dsv\n'}
+[19.917480] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/ament_index/resource_index/packages/fixed_size_image_transport\n'}
+[19.917621] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig.cmake\n'}
+[19.917767] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/cmake/fixed_size_image_transportConfig-version.cmake\n'}
+[19.917868] (fixed_size_image_transport) StdoutLine: {'line': b'-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_image_transport/share/fixed_size_image_transport/package.xml\n'}
+[19.921450] (fixed_size_image_transport) CommandEnded: {'returncode': 0}
+[19.927047] (fixed_size_image_transport) JobEnded: {'identifier': 'fixed_size_image_transport', 'rc': 0}
+[19.928785] (-) EventReactorShutdown: {}

@@ -1,0 +1,237 @@
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+[  0%] Built target fixed_size_msgs__cpp
+[  1%] Built target fixed_size_msgs__dds_opensplice_idl
+[  7%] Built target fixed_size_msgs__rosidl_generator_c
+[ 13%] Built target fixed_size_msgs__rosidl_typesupport_cpp
+[ 19%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp
+[ 25%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target fixed_size_msgs__rosidl_typesupport_c
+[ 37%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c
+[ 43%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c
+[ 67%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp
+[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c
+[ 91%] Built target fixed_size_msgs
+[ 92%] Built target fixed_size_msgs__py
+[ 97%] Built target fixed_size_msgs__python
+[ 98%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs -- -j8 -l8
+Invoking command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8
+[  1%] Built target fixed_size_msgs__dds_opensplice_idl
+[  1%] Built target fixed_size_msgs__cpp
+[  7%] Built target fixed_size_msgs__rosidl_generator_c
+[ 13%] Built target fixed_size_msgs__rosidl_typesupport_cpp
+[ 19%] Built target fixed_size_msgs__rosidl_typesupport_introspection_cpp
+[ 25%] Built target fixed_size_msgs__rosidl_typesupport_introspection_c
+[ 31%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target fixed_size_msgs__rosidl_typesupport_c
+[ 43%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c
+[ 67%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_cpp
+[ 91%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c
+[ 91%] Built target fixed_size_msgs
+[ 92%] Built target fixed_size_msgs__py
+[ 97%] Built target fixed_size_msgs__python
+[100%] Built target fixed_size_msgs__rosidl_typesupport_opensplice_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target fixed_size_msgs__rosidl_typesupport_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/rosidl_interfaces/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__traits.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__struct.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__functions.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__functions.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__struct.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__struct.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__functions.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__struct.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__struct.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__functions.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__functions.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/library_path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__type_support.cpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__type_support.cpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__type_support.cpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__type_support.cpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__type_support.cpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_fastrtps
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice_c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_c__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_c.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_c.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image720p_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image4k_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1m_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/dds_opensplice/Image1080p_.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image720p__rosidl_typesupport_opensplice_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps_impl.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps_impl.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_SplDcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps_impl.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_Dcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image4k_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_SplDcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1080p_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_SplDcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image1m_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps_impl.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_Dcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_Dcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ImageVGA_SplDcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_Dcps_impl.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1m_SplDcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_Image720p_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/ccpp_ImageVGA_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image1080p_Dcps.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image720p_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/dds_opensplice/Image4k_.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1080p__rosidl_typesupport_opensplice_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image_vga__rosidl_typesupport_opensplice_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image1m__rosidl_typesupport_opensplice_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/image4k__rosidl_typesupport_opensplice_cpp.hpp
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/include/fixed_size_msgs/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__rosidl_typesupport_opensplice_cpp.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/__init__.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p_s.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image720p_s.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1m_s.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga_s.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/__init__.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image_vga.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image4k_s.c
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/msg/_image1080p.py
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/python3.6/site-packages/fixed_size_msgs/fixed_size_msgs_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/lib/libfixed_size_msgs__python.so
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.idl
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1m.msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image4k.msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image1080p.msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/Image720p.msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/msg/ImageVGA.msg
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/package_run_dependencies/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/parent_prefix_path/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/environment/path.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.bash
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.sh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.zsh
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/local_setup.dsv
+-- Installing: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.dsv
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/ament_index/resource_index/packages/fixed_size_msgs
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/cmake/fixed_size_msgsConfig-version.cmake
+-- Up-to-date: /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/install/fixed_size_msgs/share/fixed_size_msgs/package.xml
+Invoked command in '/home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/yuehu/Desktop/segway_ros2_benchmark/read_image_iceoryx/build/fixed_size_msgs --target install -- -j8 -l8
